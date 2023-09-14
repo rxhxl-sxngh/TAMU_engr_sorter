@@ -40,4 +40,4 @@ if entry.find(COURSE_KEYWORD) != -1:
 
 - This script can be configured to run at scheduled intervals using Task Scheduler to ensure continuous file organization. If you've set up the script in Task Scheduler, it will run automatically as per your scheduled tasks, keeping your files organized without manual intervention.
 
-##Happy organizing!
+## Happy organizing!
