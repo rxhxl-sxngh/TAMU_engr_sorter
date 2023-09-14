@@ -10,87 +10,145 @@ entries = os.listdir(downloads_path)
 destination = os.listdir(final_path)
 not_selected = []
 
+ENGR102 = "ENGR102"
+ENGR216 = "ENGR216"
 CSCE121 = "CSCE121"
 CSCE222 = "CSCE222"
-MEEN431 = "MEEN431"
-MEEN439 = "MEEN439"
-MEEN459 = "MEEN459"
-MEEN464 = "MEEN464"
-MEEN210 = "MEEN210"
+CSCE221 = "CSCE221"
+CSCE312 = "CSCE312"
+CSCE314 = "CSCE314"
+MATH151 = "MATH151"
+MATH152 = "MATH152"
+MATH251 = "MATH251"
+MATH304 = "MATH304"
+MATH308 = "MATH308"
+
 
 for entry in entries:
-    if entry.find(MEEN401) != -1:
+    if entry.find(ENGR102) != -1:
 
         for dst in destination:
-            if dst == MEEN401:
+            if dst == ENGR102:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
 
 
-    if entry.find(MEEN404) != -1:
+    if entry.find(ENGR216) != -1:
         print(entry)
 
         for dst in destination:
-            if dst == MEEN404:
+            if dst == ENGR216:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
 
 
-    if entry.find(MEEN431) != -1:
+    if entry.find(CSCE121) != -1:
         print(entry)
 
         for dst in destination:
-            if dst == MEEN431:
+            if dst == CSCE121:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
 
 
-    if entry.find(MEEN439) != -1:
+    if entry.find(CSCE222) != -1:
         print(entry)   
 
         for dst in destination:
-            if dst == MEEN439:
+            if dst == CSCE222:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
 
 
-    if entry.find(MEEN459) != -1:
+    if entry.find(CSCE221) != -1:
         print(entry)
 
         for dst in destination:
-            if dst == MEEN459:
+            if dst == CSCE221:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
 
 
-    if entry.find(MEEN464) != -1:
+    if entry.find(CSCE312) != -1:
         print(entry)
 
         for dst in destination:
-            if dst == MEEN464:
+            if dst == CSCE312:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
                 
-    if entry.find(MEEN210) != -1:
+    if entry.find(CSCE314) != -1:
         print(entry)
 
         for dst in destination:
-            if dst == MEEN210:
+            if dst == CSCE314:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
                 os.remove(source)
+
+    if entry.find(MATH151) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == MATH151:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(MATH152) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == MATH152:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(MATH251) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == MATH251:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(MATH304) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == MATH304:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(MATH308) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == MATH308:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    
     else:
         not_selected.append(entry)
