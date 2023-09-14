@@ -22,6 +22,9 @@ MATH152 = "MATH152"
 MATH251 = "MATH251"
 MATH304 = "MATH304"
 MATH308 = "MATH308"
+CSCE313 = "CSCE313"
+CSCE315 = "CSCE315"
+CSCE411 = "CSCE411"
 
 
 for entry in entries:
@@ -144,6 +147,36 @@ for entry in entries:
 
         for dst in destination:
             if dst == MATH308:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(CSCE313) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == CSCE313:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(CSCE315) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == CSCE315:
+                source = (downloads_path + "\\" + entry) 
+                end_source = (final_path + "\\" + dst) 
+                shutil.copy2(source, end_source)
+                os.remove(source)
+
+    if entry.find(CSCE411) != -1:
+        print(entry)
+
+        for dst in destination:
+            if dst == CSCE411:
                 source = (downloads_path + "\\" + entry) 
                 end_source = (final_path + "\\" + dst) 
                 shutil.copy2(source, end_source)
