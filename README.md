@@ -3,7 +3,7 @@
 # File Organizer
 
 ## Overview
-This Python script is a directory management system that helps me keep my files organized by moving them from my Downloads folder to specific destination folders within my `C:\Documents\TAMU` directory. The organization is based on predefined keywords associated with different courses. My hope is that fellow aggies use this script to help themselves same time, because I know I do as my TAMU folder has grown incredibly large as CS student. The script has been integrated with my Task Scheduler to run constantly and automatically update my Downloads folder as soon as files are renamed or added.
+This Python script is a directory management system that helps me keep my files organized by moving them from my Downloads folder to specific destination folders within my `C:\Documents\TAMU` directory. The organization is based on predefined keywords associated with different courses. My hope is that fellow aggies use this script to help themselves save time, because I know I do as my TAMU folder has grown incredibly large as CS student. The script has been integrated with my Task Scheduler to run constantly and automatically update my Downloads folder as soon as files are renamed or added.
 
 ## Features
 - Automatically detects and organizes files from the Downloads folder.
