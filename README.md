@@ -17,7 +17,7 @@ This Python script is a directory management system that helps me keep my files 
 
 3. **Run the Script:** Execute the script by running it using a Python interpreter:
    ```shell
-   python simple_file_organizer.py
+   python tamu_engr_sorter.py
 
 
 You can customize this script by adding more course keywords and their associated destination folders. To do this, simply follow the pattern already established in the script for the existing courses.
